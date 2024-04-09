@@ -1,9 +1,11 @@
 <script setup>
 import { ref } from 'vue'
 
+//defineprops posibilita la comunicacion de padre a hijo
 defineProps({
   msg: String,
 })
+
 
 const count = ref(0)
 </script>
